@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="180" viewBox="0 0 840 180" role="img" aria-labelledby="title desc">
+  <title id="title">Yuri</title><desc id="desc">Learning Git and Markdown</desc>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .satellite { transform-origin: 714px 89px; animation: orbit 12s linear infinite; }
+    }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+  </style>
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#69a8aa" opacity=".34"/></pattern></defs>
+  <rect width="840" height="180" rx="14" fill="#102b32"/>
+  <rect x="595" width="245" height="180" rx="14" fill="url(#dots)"/>
+  <g fill="none" stroke="#69a8aa">
+    <circle cx="714" cy="89" r="56"/><circle cx="714" cy="89" r="74" stroke-dasharray="2 8"/>
+    <ellipse cx="714" cy="89" rx="97" ry="30" transform="rotate(-22 714 89)"/>
+  </g>
+  <circle cx="714" cy="89" r="21" fill="#b7f6cd"/>
+  <circle class="satellite" cx="714" cy="33" r="6" fill="#fff"/>
+  <rect x="38" y="34" width="45" height="4" rx="2" fill="#b7f6cd"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="36" y="99" font-size="54" font-weight="700" fill="#b7f6cd">Yuri</text>
+    <text x="38" y="140" font-size="21" fill="#f5f7f2">Learning Git and Markdown</text>
+  </g>
+</svg>
